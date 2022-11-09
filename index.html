@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible"
+            content="IE=edge">
+        <meta name="viewport"
+            content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect"
+            href="https://fonts.googleapis.com">
+        <link rel="preconnect"
+            href="https://fonts.gstatic.com"
+            crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap"
+            rel="stylesheet">
+        <link rel="apple-touch-icon"
+            sizes="180x180"
+            href="vendor/imgs/apple-touch-icon.png">
+        <link rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="vendor/imgs/favicon-32x32.png">
+        <link rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="vendor/imgs/favicon-16x16.png">
+        <link rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+        <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+        <link rel="stylesheet"
+            href="vendor/style.css">
+        <title>Quotes</title>
+    </head>
+
+    <body>
+        <!-- Header -->
+        <!-- <header class="header"> -->
+        <!-- Navbar -->
+        <nav class="navbar">
+            <div class="logo">
+                <a href="#"><img src="vendor/imgs/Logo.svg"
+                        alt=""
+                        srcset=""></a>
+            </div>
+            <div class="menu">
+                <ul class="menu-options">
+                    <li>
+                        <a href="#contact"
+                            class="menu-option">
+                            Contact
+                        </a>
+                    </li>
+                    <li>
+                        <a class="menu-option"
+                            href="#about">
+                            About
+                        </a>
+                    </li>
+                </ul>
+                <button class="download-app"
+                    type="submit">Download App<img src="vendor/imgs/icons/playstore.svg"
+                        alt=""
+                        srcset=""></button>
+            </div>
+        </nav>
+        <!-- Navbar -->
+        <!-- Hero Section -->
+        <section class="hero-area">
+            <div class="hero-text">
+                <h1>Get Your Daily Quotes</h1>
+                <p>Our Quotes App sends you daily quotes to keep you motivated throughout the day.</p>
+                <button class="download-app">Download App <img src="vendor/imgs/icons/playstore.svg"
+                        alt=""
+                        srcset=""></button>
+            </div>
+            <div class="hero-illustration"><img src="vendor/imgs/hero_illustration.svg"
+                    alt=""></div>
+        </section>
+        <!-- </header> -->
+        <!-- Hero Section -->
+        <!-- Stats -->
+        <div class="stats">
+            <div>
+                <h5>Version</h5>
+                <h3>1.0<img src="vendor/imgs/icons/version.svg"
+                        alt="Version"
+                        srcset=""></h3>
+            </div>
+            <div class="line"></div>
+            <div>
+                <h5>Downloads</h5>
+                <h3>5k+<img src="vendor/imgs/icons/download.svg"
+                        alt="Version"
+                        srcset=""></h3>
+            </div>
+            <div class="line"></div>
+            <div>
+                <h5>Ratings</h5>
+                <h3>4.5<img src="vendor/imgs/icons/star.svg"
+                        alt="Version"
+                        srcset=""></h3>
+            </div>
+        </div>
+        <!-- Stats -->
+        <!-- Swiper Slider -->
+        <section class="swiper-container">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="vendor/imgs/welcome.png" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="vendor/imgs/home.png" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="vendor/imgs/login.png" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="vendor/imgs/signup.png" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="vendor/imgs/stats.png" />
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+        <!-- Swiper Slider -->
+        <!-- Tabbed Components -->
+        <div class="operations">
+            <div class="operations__tab-container">
+                <button class="btn operations__tab operations__tab--1 operations__tab--active"
+                    data-tab="1">Daily Quotes
+                </button>
+                <button class="btn operations__tab operations__tab--2"
+                    data-tab="2">
+                    Favourites
+                </button>
+                <button class="btn operations__tab operations__tab--3"
+                    data-tab="3">
+                    Statistics
+                </button>
+            </div>
+            <div class="operations__content operations__content--1 operations__content--active">
+                <img src="vendor/imgs/home.png"
+                    alt="Home Image"
+                    width="240">
+                <div class="tabbed-content">
+                    <h3>Get Your Daily Quotes</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a,
+                        mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut
+                        interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class
+                        aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent
+                        auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Donec ut rhoncus ex. Suspendisse
+                        ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum lorem. Morbi convallis convallis diam
+                        sit amet lacinia. Aliquam in elementum tellus.</p>
+                    <button class="download-app"
+                        type="submit">Download App<img src="vendor/imgs/icons/playstore.svg"
+                            alt=""
+                            srcset=""></button>
+                </div>
+            </div>
+
+            <div class="operations__content operations__content--2">
+                <img src="vendor/imgs/favourite.png "
+                    alt="Home Image"
+                    width="240">
+                <div class="tabbed-content">
+                    <h3>Save Your Favourite Quotes</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a,
+                        mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut
+                        interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class
+                        aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent
+                        auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Donec ut rhoncus ex. Suspendisse
+                        ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum lorem. Morbi convallis convallis diam
+                        sit amet lacinia. Aliquam in elementum tellus.</p>
+                    <button class="download-app"
+                        type="submit">Download App<img src="vendor/imgs/icons/playstore.svg"
+                            alt=""
+                            srcset=""></button>
+                </div>
+            </div>
+            <div class="operations__content operations__content--3">
+                <img src="vendor/imgs/stats.png"
+                    alt="Home Image"
+                    width="240">
+                <div class="tabbed-content">
+                    <h3>Get Your Monthly Report</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a,
+                        mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut
+                        interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class
+                        aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent
+                        auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Donec ut rhoncus ex. Suspendisse
+                        ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum lorem. Morbi convallis convallis diam
+                        sit amet lacinia. Aliquam in elementum tellus.</p>
+                    <button class="download-app"
+                        type="submit">Download App<img src="vendor/imgs/icons/playstore.svg"
+                            alt=""
+                            srcset=""></button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tabbed Components -->
+
+        <!-- FAQs -->
+
+        <section class="faq">
+            <h1>
+                Frequently Asked Questions
+            </h1>
+            <div class="accordion arrows">
+                <input type="radio"
+                    name="accordion"
+                    id="cb1" />
+                <section class="box">
+                    <label class="box-title"
+                        for="cb1">Can we download the quotes from the app?</label>
+                    <label class="box-close"
+                        for="acc-close"></label>
+                    <div class="box-content">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt rerum quia
+                        reprehenderit beatae minus cum, ipsum corrupti laboriosam aliquam architecto blanditiis
+                        accusamus amet laborum quas! Culpa expedita quidem rem sed!</div>
+                </section>
+                <input type="radio"
+                    name="accordion"
+                    id="cb2" />
+                <section class="box">
+                    <label class="box-title"
+                        for="cb2">Can we save our favourite quotes?</label>
+                    <label class="box-close"
+                        for="acc-close"></label>
+                    <div class="box-content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam ipsum
+                        minima placeat aut sequi molestiae voluptatum illum vitae voluptatem maiores quasi odio adipisci
+                        perspiciatis unde quae nostrum, molestias sunt! Tempore.</div>
+                </section>
+                <input type="radio"
+                    name="accordion"
+                    id="cb3" />
+                <section class="box">
+                    <label class="box-title"
+                        for="cb3">Can we login the app with our Google account?</label>
+                    <label class="box-close"
+                        for="acc-close"></label>
+                    <div class="box-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem nobis
+                        assumenda quod dicta ipsam amet quas illum molestias autem in voluptas culpa ipsum rerum
+                        tempora, provident reiciendis tenetur suscipit. Facere?</div>
+                </section>
+                <input type="radio"
+                    name="accordion"
+                    id="cb4" />
+                <section class="box">
+                    <label class="box-title"
+                        for="cb4">What is the purpose of statistics in the app?</label>
+                    <label class="box-close"
+                        for="acc-close"></label>
+                    <div class="box-content">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi doloribus
+                        cupiditate tempora. Ullam, atque adipisci nobis doloremque eius placeat. Alias delectus minus
+                        esse, unde explicabo sunt fugit adipisci cum quo.</div>
+                </section>
+                <input type="radio"
+                    name="accordion"
+                    id="acc-close" />
+            </div>
+        </section>
+        <!-- FAQs -->
+        <!-- About Us -->
+        <section class="about"
+            id="about">
+            <h1>About Us</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam nostrum porro odio iusto sapiente
+                necessitatibus voluptate qui iure facilis. Pariatur id dolorem voluptatem optio architecto quisquam eum
+                corporis quaerat voluptate. Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci nihil
+                distinctio sequi voluptatibus unde, autem, libero saepe atque ea, voluptates aliquam quis. Minus rem ut
+                numquam aliquid excepturi nam nesciunt. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptatibus cupiditate nesciunt, nostrum maxime possimus, voluptates soluta laudantium magnam
+                repellendus veritatis tenetur, non temporibus! Hic esse reprehenderit enim error sit quas?</p>
+        </section>
+        <!-- About Us -->
+        <!-- Contact Us -->
+        <section class="contact"
+            id="contact">
+            <h1>Contact Us</h1>
+            <form action="#"
+                class="contact-form">
+                <div class="form-top">
+                    <input type="text"
+                        placeholder="Name">
+                    <input type="email"
+                        placeholder="E-mail">
+                </div>
+                <select class="select"
+                    name="Subject"
+                    aria-valuetext="Subject-1">
+                    <!-- <optgroup label="Subject"> -->
+                    <option value="Subject">Subject</option>
+                    <option value="Problem 1">Problem One</option>
+                    <option value="Problem 2">Problem Two</option>
+                    <option value="Problem 3">Problem Three</option>
+                    <option value="Problem 4">Problem Four</option>
+                    <!-- </optgroup> -->
+                </select>
+                <textarea name="Message"
+                    id=""
+                    rows="10"
+                    placeholder="Message"></textarea>
+                <input type="submit"
+                    name="Submit"
+                    class="submit">
+            </form>
+        </section>
+        <footer class="footer">
+            <ul>
+                <li>© 2022 &nbsp;<sup> . </sup> Daxyne <sup> . </sup>&nbsp; All Copyrights are reserved.</li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+            </ul>
+            <div class="footer-icons">
+                <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                        width="1.5em"
+                        height="1.5em"
+                        preserveAspectRatio="xMidYMid meet"
+                        viewBox="0 0 24 24"
+                        style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);">
+                        <g fill="none"
+                            stroke="#455A64"
+                            stroke-width="1.5">
+                            <path stroke-linecap="round"
+                                stroke-linejoin="round"
+                                d="m7 9l5 3.5L17 9" />
+                            <path d="M2 17V7a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2Z" />
+                        </g>
+                    </svg>
+                </a>
+                <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                        width="1.5em"
+                        height="1.5em"
+                        preserveAspectRatio="xMidYMid meet"
+                        viewBox="0 0 24 24"
+                        style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);">
+                        <path fill="none"
+                            stroke="#455A64"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="1.5"
+                            d="M17 2h-3a5 5 0 0 0-5 5v3H6v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3V2Z" />
+                    </svg>
+                </a>
+                <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                        width="1.5em"
+                        height="1.5em"
+                        preserveAspectRatio="xMidYMid meet"
+                        viewBox="0 0 24 24"
+                        style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);">
+                        <g fill="none"
+                            stroke="#455A64"
+                            stroke-width="1.5">
+                            <path stroke-linecap="round"
+                                stroke-linejoin="round"
+                                d="M12 16a4 4 0 1 0 0-8a4 4 0 0 0 0 8Z" />
+                            <path d="M3 16V8a5 5 0 0 1 5-5h8a5 5 0 0 1 5 5v8a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5Z" />
+                            <path stroke-linecap="round"
+                                stroke-linejoin="round"
+                                d="m17.5 6.51l.01-.011" />
+                        </g>
+                    </svg>
+                </a>
+                <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                        width="1.5em"
+                        height="1.5em"
+                        preserveAspectRatio="xMidYMid meet"
+                        viewBox="0 0 24 24"
+                        style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);">
+                        <path fill="none"
+                            stroke="#455A64"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="1.5"
+                            d="M23 3.01s-2.018 1.192-3.14 1.53a4.48 4.48 0 0 0-7.86 3v1a10.66 10.66 0 0 1-9-4.53s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5c0-.278-.028-.556-.08-.83C21.94 5.674 23 3.01 23 3.01Z" />
+                    </svg>
+                </a>
+            </div>
+        </footer>
+        <!-- Contact Us -->
+
+        <script src="/vendor/script.js"></script>
+    </body>
+
+</html>
